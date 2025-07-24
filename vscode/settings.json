@@ -12,36 +12,35 @@
             "other": "on"
         }
     },
-    "yaml.schemas": {
-        "file:///c%3A/Users/rishi/.vscode/extensions/atlassian.atlascode-3.8.4/resources/schemas/pipelines-schema.json": "bitbucket-pipelines.yml"
-    },
     "diffEditor.ignoreTrimWhitespace": false,
-
-    // Added to show hidden files, including .git
     "files.exclude": {
         "**/.git": false
     },
     "githubPullRequests.pullBranch": "never",
     "terminal.integrated.allowChords": false,
     "terminal.integrated.allowMnemonics": true,
-
-    // Enable Ctrl+C for copy in terminal
     "terminal.integrated.copyOnSelection": true,
     "terminal.integrated.commandsToSkipShell": [
         "workbench.action.terminal.copySelection"
     ],
     "git.ignoreRebaseWarning": true,
-    "atlascode.jira.lastCreateSiteAndProject": {
-        "siteId": "",
-        "projectKey": ""
+    "editor.formatOnSave": true,
+    "editor.formatOnPaste": true,
+    "editor.codeActionsOnSave": {
+        "source.fixAll": "explicit"
     },
-
-    // WSL terminal defaults
-    "terminal.integrated.defaultProfile.windows": "Ubuntu-22.04",
-    "terminal.integrated.profiles.windows": {
-        "Ubuntu-22.04": {
-            "path": "C:\\WINDOWS\\System32\\wsl.exe",
-            "args": ["-d", "Ubuntu-22.04"]
-        }
-    }
+    "editor.minimap.enabled": false,
+    "editor.renderWhitespace": "boundary",
+    "editor.rulers": [80, 120],
+    "editor.wordWrap": "on",
+    "workbench.editor.enablePreview": false,
+    "explorer.confirmDelete": false,
+    "explorer.confirmDragAndDrop": false,
+    "terminal.integrated.fontSize": 14,
+    "terminal.integrated.fontFamily": "SF Mono, Monaco, Consolas, monospace",
+    "files.autoSave": "onFocusChange",
+    "git.autofetch": true,
+    "git.confirmSync": false,
+    "editor.tabSize": 2,
+    "editor.insertSpaces": true
 }
