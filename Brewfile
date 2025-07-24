@@ -1,0 +1,6 @@
+brew "gh"
+brew "git"
+brew "neofetch"
+brew "node"
+brew "tmux"
+cask "rectangle"
