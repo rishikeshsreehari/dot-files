@@ -103,3 +103,18 @@ source $ZSH/oh-my-zsh.sh
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 # Test comment from dotfiles setup
+
+# Custom aliases
+alias dotfiles='cd ~/.dotfiles'
+alias dotpush='cd ~/.dotfiles && git add . && git commit -m "Update dotfiles" && git push'
+alias dotpull='cd ~/.dotfiles && git pull'
+alias dotstatus='cd ~/.dotfiles && git status'
+alias clr='clear'
+alias ll='ls -la'
+alias ..='cd ..'
+alias ...='cd ../..'
+alias reload='source ~/.zshrc'
+alias gh='cd ~/GitHub'
+alias desk='cd ~/Desktop'
+alias docs='cd ~/Documents'
+alias dl='cd ~/Downloads'
