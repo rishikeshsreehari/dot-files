@@ -31,7 +31,10 @@
     },
     "editor.minimap.enabled": false,
     "editor.renderWhitespace": "boundary",
-    "editor.rulers": [80, 120],
+    "editor.rulers": [
+        80,
+        120
+    ],
     "editor.wordWrap": "on",
     "workbench.editor.enablePreview": false,
     "explorer.confirmDelete": false,
@@ -42,5 +45,6 @@
     "git.autofetch": true,
     "git.confirmSync": false,
     "editor.tabSize": 2,
-    "editor.insertSpaces": true
+    "editor.insertSpaces": true,
+    "git.enableSmartCommit": true
 }
