@@ -24,8 +24,6 @@
         "workbench.action.terminal.copySelection"
     ],
     "git.ignoreRebaseWarning": true,
-    "editor.formatOnSave": true,
-    "editor.formatOnPaste": true,
     "editor.codeActionsOnSave": {
         "source.fixAll": "explicit"
     },
@@ -40,11 +38,15 @@
     "explorer.confirmDelete": false,
     "explorer.confirmDragAndDrop": false,
     "terminal.integrated.fontSize": 14,
-    "terminal.integrated.fontFamily": "SF Mono, Monaco, Consolas, monospace",
+    "terminal.integrated.fontFamily": "'JetBrains Mono', SF Mono, Monaco, Consolas, monospace",
     "files.autoSave": "onFocusChange",
     "git.autofetch": true,
     "git.confirmSync": false,
     "editor.tabSize": 2,
     "editor.insertSpaces": true,
-    "git.enableSmartCommit": true
+    "git.enableSmartCommit": true,
+    "docker.extension.enableComposeLanguageServer": false,
+    "workbench.settings.applyToAllProfiles": [
+        "editor.formatOnSave"
+    ]
 }
