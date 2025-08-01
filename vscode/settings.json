@@ -48,5 +48,10 @@
     "docker.extension.enableComposeLanguageServer": false,
     "workbench.settings.applyToAllProfiles": [
         "editor.formatOnSave"
-    ]
+    ],
+    "yaml.schemas": {
+        "/Users/rishikesh/.vscode/extensions/continue.continue-1.0.19-darwin-arm64/config-yaml-schema.json": [
+            ".continue/**/*.yaml"
+        ]
+    }
 }
