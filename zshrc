@@ -35,3 +35,17 @@ alias py='python3'
 alias pip='pip3'
 alias pyserver='python3 -m http.server'
 alias pyhelp='python3 -c "import this"'
+
+# Directory Aliases
+alias trackmonk="cd ~/GitHub/trackmonk"
+alias trackmonk-s="cd ~/GitHub/trackmonk-site"
+
+
+# Docker compose aliases
+alias dc="docker compose"
+alias dcu="docker compose up --build -d"
+alias dcd="docker compose down"
+alias dcr="docker compose restart"
+alias dcl="docker compose logs"
+alias dclf="docker compose logs -f"
+alias dcps="docker compose ps"
