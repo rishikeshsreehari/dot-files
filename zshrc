@@ -49,3 +49,27 @@ alias dcr="docker compose restart"
 alias dcl="docker compose logs"
 alias dclf="docker compose logs -f"
 alias dcps="docker compose ps"
+
+
+# Journal.txt alias
+j() {
+    cd ~/GitHub/journal
+    
+    # Add entry template to end of file
+    echo "" >> journal.txt
+    echo "---" >> journal.txt
+    echo "Date: $(date '+%Y-%m-%d')" >> journal.txt
+    echo "Time: $(date '+%H:%M')" >> journal.txt
+    echo "Tags: " >> journal.txt
+    echo "---" >> journal.txt
+    echo "" >> journal.txt
+    
+    # Open nano
+    /opt/homebrew/bin/nano + journal.txt
+    
+    # Always sync after writing
+    git add journal.txt
+    git commit -m "Journal entry $(date +%Y-%m-%d)"
+    git push
+    echo "Journal synced!"
+}
