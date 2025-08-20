@@ -47,6 +47,10 @@ alias dcps="docker compose ps"
 j() {
     cd ~/GitHub/journal
     
+    # Pull latest changes first
+    echo "Syncing latest entries..."
+    git pull
+    
     # Add entry template to end of file
     echo "" >> journal.txt
     echo "---" >> journal.txt
@@ -61,10 +65,11 @@ j() {
     
     # Always sync after writing
     git add journal.txt
-    git commit -m "Journal entry $(date +%Y-%m-%d)"
+    git commit -m "Journal entry from mac  $(date +%Y-%m-%d)"
     git push
     echo "Journal synced!"
 }
+
 
 jview() {
     cd ~/GitHub/journal
