@@ -94,3 +94,4 @@ unset __conda_setup
 
 . "$HOME/.local/bin/env"
 export PATH="$HOME/.local/bin:$PATH"
+export PATH="/opt/homebrew/opt/ruby/bin:$PATH"
