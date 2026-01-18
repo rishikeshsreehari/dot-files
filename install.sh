@@ -10,8 +10,10 @@ ln -sf ~/.dotfiles/gitconfig ~/.gitconfig
 mkdir -p ~/Library/Application\ Support/Code/User/
 ln -sf ~/.dotfiles/vscode/settings.json ~/Library/Application\ Support/Code/User/settings.json
 
-# Note: iTerm2 preferences are synced directly via iTerm2's built-in sync feature
-# Configure in iTerm2 → Preferences → General → "Load preferences from custom folder"
+# Create symlinks for Ghostty
+mkdir -p ~/.config/ghostty
+ln -sf ~/.dotfiles/ghostty/config ~/.config/ghostty/config
+
 
 echo "Dotfiles installed!"
 echo "Don't forget to configure iTerm2 to load preferences from ~/.dotfiles"
