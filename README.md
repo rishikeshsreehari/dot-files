@@ -47,8 +47,3 @@ dotpull        # Pull latest changes
 dotstatus      # Check git status
 ```
 
-## Manual Steps
-
-1. Restart terminal
-2. Sign into accounts (1Password, iCloud, etc.)
-3. Configure app-specific settings as needed
