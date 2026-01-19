@@ -26,11 +26,8 @@ dotbackup  # Backup configs
 dotpush    # Push to GitHub
 ```
 
-Or use all-in-one:
 
-```bash
-dotpush-brew  # Backup + commit + push
-```
+
 
 ## What's Included
 
