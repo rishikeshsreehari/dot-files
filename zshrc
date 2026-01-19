@@ -9,12 +9,25 @@ source $ZSH/oh-my-zsh.sh
 # Prioritize Homebrew packages
 export PATH="/opt/homebrew/bin:/opt/homebrew/sbin:$PATH"
 
+
 # Custom aliases
 alias dotfiles='cd ~/.dotfiles'
 alias dotpush='cd ~/.dotfiles && git add . && git commit -m "Update dotfiles" && git push'
-alias dotpush-brew='cd ~/.dotfiles && brew bundle dump --force && pip3 freeze > requirements.txt && git add . && git commit -m "Update dotfiles, Brewfile, and pip requirements" && git push'
 alias dotpull='cd ~/.dotfiles && git pull'
 alias dotstatus='cd ~/.dotfiles && git status'
+
+# Dotfiles backup workflow
+dotbackup() {
+    cd ~/.dotfiles
+    echo "💾 Backing up configs..."
+    brew bundle dump --force --describe
+    pip3 freeze > requirements.txt
+    mackup backup
+    echo "✅ Backup complete! Run 'dotpush' to commit."
+}
+
+
+
 alias clr='clear'
 alias ll='ls -la'
 alias ..='cd ..'
