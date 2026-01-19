@@ -9,6 +9,9 @@ source $ZSH/oh-my-zsh.sh
 # Prioritize Homebrew packages
 export PATH="/opt/homebrew/bin:/opt/homebrew/sbin:$PATH"
 
+# Set default editor to nano
+export EDITOR="nano"
+export VISUAL="nano"
 
 # Custom aliases
 alias dotfiles='cd ~/.dotfiles'
