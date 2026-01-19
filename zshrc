@@ -22,7 +22,7 @@ dotbackup() {
     echo "💾 Backing up configs..."
     brew bundle dump --force --describe
     pip3 freeze > requirements.txt
-    mackup backup
+    mackup backup --force
     echo "✅ Backup complete! Run 'dotpush' to commit."
 }
 
