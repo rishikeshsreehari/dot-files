@@ -1,0 +1,19 @@
+AdGuard Mini.app
+balenaEtcher.app
+Docker.app
+Ghostty.app
+Google Docs.app
+Google Drive.app
+Google Sheets.app
+Google Slides.app
+iTerm.app
+Ledger Wallet.app
+logioptionsplus.app
+Obsidian.app
+PrettyJSON for Safari.app
+Rectangle.app
+Safari.app
+Save to Reader.app
+SD Card Formatter.app
+TomatoBar.app
+Vimlike.app

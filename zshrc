@@ -26,6 +26,13 @@ dotbackup() {
     brew bundle dump --force --describe
     pip3 freeze > requirements.txt
     mackup backup --force
+    
+    # All applications in /Applications
+    ls /Applications | grep ".app$" > applications-list.txt
+    
+    # npm global packages (optional)
+    npm list -g --depth=0 > npm-globals.txt 2>/dev/null || true
+
     echo "✅ Backup complete! Run 'dotpush' to commit."
 }
 
