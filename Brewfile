@@ -24,6 +24,8 @@ brew "irssi"
 brew "lolcat"
 # Keep your Mac's application settings in sync
 brew "mackup"
+# Mac App Store command-line interface
+brew "mas"
 # Free (GNU) replacement for the Pico text editor
 brew "nano"
 # Fast, highly customisable system info script
@@ -58,3 +60,7 @@ cask "iterm2"
 cask "rectangle"
 # Menu bar pomodoro timer
 cask "tomatobar"
+mas "AdGuard Mini", id: 1440147259
+mas "PrettyJSON for Safari", id: 1445328303
+mas "Save to Reader", id: 1640236961
+mas "Vimlike", id: 1584519802
