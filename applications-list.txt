@@ -1,6 +1,9 @@
 AdGuard Mini.app
+Bruno.app
 Docker.app
+Folders.app
 Ghostty.app
+Google Chrome.app
 Google Docs.app
 Google Drive.app
 Google Sheets.app
@@ -19,9 +22,11 @@ Rectangle.app
 SD Card Formatter.app
 Safari.app
 Save to Reader.app
+SiteSucker.app
 TomatoBar.app
 Vimlike.app
 Visual Studio Code.app
 balenaEtcher.app
 iTerm.app
 logioptionsplus.app
+muCommander.app
