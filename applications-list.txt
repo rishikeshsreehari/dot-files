@@ -1,5 +1,6 @@
 AdGuard Mini.app
 Bruno.app
+Claude.app
 Docker.app
 Folders.app
 Ghostty.app
@@ -8,6 +9,7 @@ Google Docs.app
 Google Drive.app
 Google Sheets.app
 Google Slides.app
+Hotspot Shield.app
 Ledger Wallet.app
 Microsoft Defender Shim.app
 Microsoft Excel.app

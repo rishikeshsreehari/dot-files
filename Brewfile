@@ -62,6 +62,7 @@ cask "rectangle"
 cask "tomatobar"
 mas "AdGuard Mini", id: 1440147259
 mas "Folders", id: 1593644229
+mas "Hotspot Shield", id: 771076721
 mas "PrettyJSON for Safari", id: 1445328303
 mas "Save to Reader", id: 1640236961
 mas "SiteSucker", id: 442168834
