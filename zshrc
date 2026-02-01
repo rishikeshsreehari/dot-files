@@ -118,3 +118,6 @@ unset __conda_setup
 [ -f "$HOME/.local/bin/env" ] && . "$HOME/.local/bin/env"
 export PATH="$HOME/.local/bin:$PATH"
 export PATH="/opt/homebrew/opt/ruby/bin:$PATH"
+
+# OpenClaw Completion
+source <(openclaw completion --shell zsh)
