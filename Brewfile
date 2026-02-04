@@ -32,6 +32,8 @@ brew "nano"
 brew "neofetch"
 # Port scanning utility for large networks
 brew "nmap"
+# Execute binaries from Python packages in isolated environments
+brew "pipx"
 # Cartographic Projections Library
 brew "proj"
 # Interpreted, interactive, object-oriented programming language
