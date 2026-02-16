@@ -1,4 +1,5 @@
 AdGuard Mini.app
+balenaEtcher.app
 Bruno.app
 Claude.app
 Docker.app
@@ -10,25 +11,25 @@ Google Drive.app
 Google Sheets.app
 Google Slides.app
 Hotspot Shield.app
+iTerm.app
 Ledger Wallet.app
+logioptionsplus.app
 Microsoft Defender Shim.app
 Microsoft Excel.app
 Microsoft OneNote.app
 Microsoft Outlook.app
 Microsoft PowerPoint.app
 Microsoft Word.app
+muCommander.app
 Obsidian.app
 OneDrive.app
 PrettyJSON for Safari.app
 Rectangle.app
-SD Card Formatter.app
+ResponsivelyApp.app
 Safari.app
 Save to Reader.app
+SD Card Formatter.app
 SiteSucker.app
 TomatoBar.app
 Vimlike.app
 Visual Studio Code.app
-balenaEtcher.app
-iTerm.app
-logioptionsplus.app
-muCommander.app
