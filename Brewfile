@@ -1,5 +1,8 @@
+tap "anomalyco/tap"
 # Spell checker with better logic than ispell
 brew "aspell"
+# Bourne-Again SHell, a UNIX command interpreter
+brew "bash"
 # Pack, ship and run any application as a lightweight container
 brew "docker"
 # Open-source, cross-platform JavaScript runtime environment
@@ -52,6 +55,8 @@ brew "tmux"
 brew "tree"
 # Vulnerability scanner for container images, file systems, and Git repos
 brew "trivy"
+# The AI coding agent built for the terminal.
+brew "anomalyco/tap/opencode"
 # App to build and share containerised applications and microservices
 cask "docker-desktop"
 # Terminal emulator that uses platform-native UI and GPU acceleration

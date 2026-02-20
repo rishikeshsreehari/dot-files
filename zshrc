@@ -121,3 +121,6 @@ export PATH="/opt/homebrew/opt/ruby/bin:$PATH"
 
 # OpenClaw Completion
 source <(openclaw completion --shell zsh)
+
+# Added by Antigravity
+export PATH="/Users/rishikesh/.antigravity/antigravity/bin:$PATH"
