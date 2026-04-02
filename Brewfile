@@ -1,4 +1,5 @@
 tap "anomalyco/tap"
+tap "supabase/tap"
 # Spell checker with better logic than ispell
 brew "aspell"
 # Bourne-Again SHell, a UNIX command interpreter
@@ -35,6 +36,8 @@ brew "nano"
 brew "neofetch"
 # Port scanning utility for large networks
 brew "nmap"
+# Your own personal AI assistant
+brew "openclaw-cli"
 # Execute binaries from Python packages in isolated environments
 brew "pipx"
 # Cartographic Projections Library
@@ -49,6 +52,8 @@ brew "python@3.11"
 brew "ruby"
 # Sparklines for the shell
 brew "spark"
+# Command-line tool for Stripe
+brew "stripe-cli"
 # Terminal multiplexer
 brew "tmux"
 # Display directories as trees (with optional color/HTML output)
@@ -57,6 +62,8 @@ brew "tree"
 brew "trivy"
 # The AI coding agent built for the terminal.
 brew "anomalyco/tap/opencode"
+# Supabase CLI
+brew "supabase/tap/supabase"
 # App to build and share containerised applications and microservices
 cask "docker-desktop"
 # Terminal emulator that uses platform-native UI and GPU acceleration
@@ -67,6 +74,14 @@ cask "iterm2"
 cask "rectangle"
 # Menu bar pomodoro timer
 cask "tomatobar"
+mas "AdGuard Mini", id: 1440147259
+mas "Folders", id: 1593644229
+mas "GIPHY CAPTURE", id: 668208984
+mas "Hotspot Shield", id: 771076721
+mas "PrettyJSON for Safari", id: 1445328303
+mas "Save to Reader", id: 1640236961
+mas "SiteSucker", id: 442168834
+mas "Vimlike", id: 1584519802
 vscode "aaron-bond.better-comments"
 vscode "alefragnani.bookmarks"
 vscode "anthropic.claude-code"
@@ -99,6 +114,7 @@ vscode "ibm.output-colorizer"
 vscode "kevinrose.vsc-python-indent"
 vscode "lokalise.i18n-ally"
 vscode "mechatroner.rainbow-csv"
+vscode "mefisto04.csv-viewer"
 vscode "ms-azuretools.vscode-containers"
 vscode "ms-azuretools.vscode-docker"
 vscode "ms-python.debugpy"
